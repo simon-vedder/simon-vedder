@@ -8,7 +8,7 @@ I am Simon, an IT professional with a passion for innovation and automation.
 In my github repositories, I share my experiences and projects from the world of IT, cloud and DevOps.
 
 ## About Me
-I was released in 1994 and after a couple of years of development, I executed "mv . /location/Germany/Hamburg"😜
+I was released in 1994 and after a couple of years of development, I executed "mv . /location/Switzerland/Zurich"😜
 
 At first I started in Client Management, deployed software via SCCM and did a lot of PowerShell coding. Continued by stepping into cloud technologies with AWS and Azure. 
 Due to the relationship with Microsoft - Azure was initially the choice.
