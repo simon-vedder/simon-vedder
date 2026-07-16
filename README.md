@@ -8,16 +8,16 @@ live tenants, and write them up at **[simonvedder.com](https://simonvedder.com)*
 ## Tools I've built
 
 **Identity & security**
-- [least-privilege-studio](https://github.com/simon-vedder/least-privilege-studio) — find the right least-privilege Azure RBAC role and generate the assignment.
-- [app-lifecycle-analyzer](https://github.com/simon-vedder/app-lifecycle-analyzer) — read-only lifecycle audit of Entra ID app registrations (secrets, certs, federated creds, sign-in activity) in one HTML report.
+- **[Least Privilege Studio](https://github.com/simon-vedder/least-privilege-studio)** — find the right least-privilege Azure RBAC role and generate the assignment.
+- **[App Lifecycle Analyzer](https://github.com/simon-vedder/app-lifecycle-analyzer)** — read-only lifecycle audit of Entra ID app registrations (secrets, certs, federated creds, sign-in activity) in one HTML report.
 
 **Azure automation & cost**
-- [azure-vm-power-management](https://github.com/simon-vedder/azure-vm-power-management) — tag-driven start/stop for Azure VMs; schedule power with an `AutoShutdown` tag.
-- [terraform-secrets](https://github.com/simon-vedder/terraform-secrets) — rotate Terraform-provisioned VM credentials via Key Vault + Automation, no plaintext in state.
-- [azure-vm-selfservice-order](https://github.com/simon-vedder/azure-vm-selfservice-order) — self-service VM / AVD ordering via a web form (Logic App + Queue + Function App).
+- **[Azure VM Power Management](https://github.com/simon-vedder/azure-vm-power-management)** — tag-driven start/stop for Azure VMs; schedule power with an `AutoShutdown` tag.
+- **[Terraform Secrets](https://github.com/simon-vedder/terraform-secrets)** — rotate Terraform-provisioned VM credentials via Key Vault + Automation, no plaintext in state.
+- **[Azure VM Self-Service Order](https://github.com/simon-vedder/azure-vm-selfservice-order)** — self-service VM / AVD ordering via a web form (Logic App + Queue + Function App).
 
 **AI on Azure**
-- [azure-rag-foundry](https://github.com/simon-vedder/azure-rag-foundry) — enterprise RAG chatbot on Azure AI Foundry with private networking.
+- **[Aria — RAG on Azure AI Foundry](https://github.com/simon-vedder/azure-rag-foundry)** — enterprise RAG chatbot on Azure AI Foundry with private networking.
 
 ## Focus
 
