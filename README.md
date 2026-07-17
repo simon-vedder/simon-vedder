@@ -1,5 +1,12 @@
 # Simon Vedder
 
+![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
+![Microsoft Entra ID](https://img.shields.io/badge/Microsoft-Entra_ID-0078D4?logo=microsoftazure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white)
+[![Blog](https://img.shields.io/badge/blog-simonvedder.com-FF6B35)](https://simonvedder.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-simon--vedder-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/simon-vedder/)
+
 Cloud & cloud-security engineer based near Zurich 🇨🇭. I work day-to-day across Azure platform
 engineering and cloud security, with a focus on **Microsoft Entra ID, identity & RBAC, and Azure
 infrastructure-as-code**. I build small, read-only tools that solve a real problem, test them against
