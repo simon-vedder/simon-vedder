@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/images/hero.png" alt="Simon Vedder, cloud and cloud-security engineer in Zurich. Read-only tools for Azure and Entra ID: build it, run it on a live tenant, write it up." width="100%"></p>
+<p align="center"><img src="docs/images/hero.png" alt="Simon Vedder, cloud and cloud-security engineer in Zurich. Azure automation, identity audits, infrastructure as code: AzureInPlaceUpgrade, Least Privilege Studio, App Lifecycle Analyzer, VM Power Management, Terraform Secrets, RiskyRolesAnalyzer." width="100%"></p>
 
 <p align="center">
   <a href="https://simonvedder.com"><img src="https://img.shields.io/badge/blog-simonvedder.com-FF6B35" alt="Blog"></a>
@@ -7,9 +7,9 @@
 </p>
 
 **Cloud & cloud-security engineer near Zurich.** I work across Azure platform engineering and cloud
-security, with a focus on Microsoft Entra ID, RBAC and infrastructure-as-code. The tools below are
-small and read-only by default, tested against live tenants, and written up at
-**[simonvedder.com](https://simonvedder.com)**.
+security, with a focus on Microsoft Entra ID, RBAC and infrastructure-as-code. Some of the tools below
+run tedious Azure work unattended, the others audit what a tenant actually allows. All of them are
+tested against live tenants before they're written up at **[simonvedder.com](https://simonvedder.com)**.
 
 ## Tools
 
