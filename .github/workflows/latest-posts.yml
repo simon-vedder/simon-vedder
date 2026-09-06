@@ -1,0 +1,41 @@
+name: Refresh latest posts
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch the three latest posts from simonvedder.com
+        run: |
+          curl -fsS "https://simonvedder.com/wp-json/wp/v2/posts?per_page=3&_fields=title,link,date" -o posts.json
+          python3 - <<'PY'
+          import html, json, re
+          posts = json.load(open("posts.json"))
+          lines = [f"- [{html.unescape(p['title']['rendered'])}]({p['link']}) · {p['date'][:10]}" for p in posts]
+          block = "<!-- BLOG:START -->\n" + "\n".join(lines) + "\n<!-- BLOG:END -->"
+          readme = open("README.md", encoding="utf-8").read()
+          new = re.sub(r"<!-- BLOG:START -->.*?<!-- BLOG:END -->", block, readme, flags=re.S)
+          open("README.md", "w", encoding="utf-8").write(new)
+          PY
+          rm posts.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet README.md; then
+            echo "README already current."
+          else
+            git add README.md
+            git commit -m "docs: refresh latest posts"
+            git push
+          fi
