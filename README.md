@@ -41,7 +41,7 @@ Collections: **[powershell](https://github.com/simon-vedder/powershell)** (Risky
 
 <!-- BLOG:START -->
 - [169.254.169.254: The Cloud Metadata Endpoint](https://simonvedder.com/169-254-169-254-the-cloud-metadata-endpoint/) · 2026-08-27
-- [There's no built-in policy for Entra VM login](https://simonvedder.com/theres-no-built-in-policy-for-entra-vm-login/) · 2026-07-26
+- [There’s no built-in policy for Entra VM login](https://simonvedder.com/theres-no-built-in-policy-for-entra-vm-login/) · 2026-07-26
 - [Stop letting your AI guess Azure RBAC](https://simonvedder.com/stop-letting-your-ai-guess-azure-rbac/) · 2026-06-29
 <!-- BLOG:END -->
 
