@@ -39,7 +39,7 @@ Collections: **[powershell](https://github.com/simon-vedder/powershell)** ·
 ## Recently shipped
 
 <!-- RELEASES:START -->
-- [AzureVMPowerManagement 0.1.5-preview](https://github.com/simon-vedder/azure-vm-power-management/releases/tag/v0.1.5) · [azure-vm-power-management](https://github.com/simon-vedder/azure-vm-power-management) · 2026-09-13
+- [AzureVMPowerManagement 0.1.6-preview](https://github.com/simon-vedder/azure-vm-power-management/releases/tag/v0.1.6) · [azure-vm-power-management](https://github.com/simon-vedder/azure-vm-power-management) · 2026-09-15
 - [AzureVMCredentialRotation 0.4.1](https://github.com/simon-vedder/azure-vm-credential-rotation/releases/tag/v0.4.1) · [azure-vm-credential-rotation](https://github.com/simon-vedder/azure-vm-credential-rotation) · 2026-09-08
 - [AzureInPlaceUpgrade 0.3.1-preview](https://github.com/simon-vedder/azure-vm-inplace-upgrade/releases/tag/v0.3.1) · [azure-vm-inplace-upgrade](https://github.com/simon-vedder/azure-vm-inplace-upgrade) · 2026-09-07
 - [RiskyRolesAnalyzer 0.1.0-preview](https://github.com/simon-vedder/risky-roles-analyzer/releases/tag/v0.1.0) · [risky-roles-analyzer](https://github.com/simon-vedder/risky-roles-analyzer) · 2026-09-07
@@ -49,7 +49,8 @@ Collections: **[powershell](https://github.com/simon-vedder/powershell)** ·
 ## Upstream
 
 <!-- UPSTREAM:START -->
-- [maester365/maester #2130](https://github.com/maester365/maester/pull/2130): feat(entra): add MT.1198 app registration certificate lifetime test · open
+- [maester365/maester #2214](https://github.com/maester365/maester/pull/2214): feat(entra): add MT.1199 app registration credential expiry test · merged
+- [maester365/maester #2130](https://github.com/maester365/maester/pull/2130): feat(entra): add MT.1198 app registration certificate lifetime test · merged
 - [Azure/Community-Policy #541](https://github.com/Azure/Community-Policy/pull/541): Add policies: Deploy the Microsoft Entra login extensions to Azure VMs · open
 <!-- UPSTREAM:END -->
 
