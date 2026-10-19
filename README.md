@@ -51,15 +51,15 @@ Collections: **[powershell](https://github.com/simon-vedder/powershell)** ·
 <!-- UPSTREAM:START -->
 - [maester365/maester #2214](https://github.com/maester365/maester/pull/2214): feat(entra): add MT.1199 app registration credential expiry test · merged
 - [maester365/maester #2130](https://github.com/maester365/maester/pull/2130): feat(entra): add MT.1198 app registration certificate lifetime test · merged
-- [Azure/Community-Policy #541](https://github.com/Azure/Community-Policy/pull/541): Add policies: Deploy the Microsoft Entra login extensions to Azure VMs · open
+- [Azure/Community-Policy #541](https://github.com/Azure/Community-Policy/pull/541): Add policies: Deploy the Microsoft Entra login extensions to Azure VMs · merged
 <!-- UPSTREAM:END -->
 
 ## Latest posts
 
 <!-- BLOG:START -->
+- [The VMs that LAPS cannot reach still have passwords](https://simonvedder.com/the-vms-that-laps-cannot-reach-still-have-passwords/) · 2026-10-15
 - [Azure in-place upgrades don’t have to stay manual](https://simonvedder.com/azure-in-place-upgrades-dont-have-to-stay-manual/) · 2026-09-10
 - [169.254.169.254: The Cloud Metadata Endpoint](https://simonvedder.com/169-254-169-254-the-cloud-metadata-endpoint/) · 2026-08-27
-- [There’s no built-in policy for Entra VM login](https://simonvedder.com/theres-no-built-in-policy-for-entra-vm-login/) · 2026-07-26
 <!-- BLOG:END -->
 
 More at [simonvedder.com](https://simonvedder.com) · [LinkedIn](https://www.linkedin.com/in/simon-vedder/)
